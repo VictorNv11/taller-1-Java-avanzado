@@ -13,26 +13,30 @@
 
 
   <div class="mb-3">
-    <label  class="form-label">Nombres</label>
-    <input type="nombre" class="form-control">
+    <label for="firstName" class="form-label">Nombres</label>
+     <input type="text" id="firstName" class="form-control" placeholder="Ingrese su nombre" required autofocus pattern="[A-Za-z ]{2, 40}">
+
   </div>
 
 
   <div class="mb-3">
-    <label class="form-label">Apellidos</label>
-    <input type="password" class="form-control">
+    <label for="lastName" class="form-label">Apellidos</label>
+    <input type="text" id="lastName" class="form-control" placeholder="Ingrese su apellido" required pattern="[A-Za-z ]{2, 40}">
+
   </div>
 
 
   <div class="mb-3">
-    <label  class="form-label">Correo</label>
-    <input type="email" class="form-control">
+    <label for="email" class="form-label">Correo</label>
+    <input type="text" id="email" class="form-control" placeholder="Ingrese su correo" required pattern="{,60}">
   </div
 
 
   <div class="mb-3">
-    <label  class="form-label">Password</label>
-    <input type="email" class="form-control">
+    <label for"password1" class="form-label">Password</label>
+    <input type="password" id="password1" class="form-control" placeholder="Ingrese su password" pattern="{12, 20}" required>
+
+
   </div>
 
 
